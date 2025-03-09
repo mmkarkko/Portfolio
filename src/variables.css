@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --font-typewriter: 'Fira Code', monospace;
+  --font-primary: 'Roboto', sans-serif;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+
+  --color-blue: #15299A;
+  --color-purple-blue: #5E48DF;
+  --color-purple: #9B4FE8;
+  --color-white: #FDFCFD;
+  --color-black: #020514;
+
+  --color-bg-light: #efefff;
+
+  --size-font-typewriter: 2.4rem;
+  --size-font-navi: 1.5rem;
+
+  --height-header: 5rem;
+  --height-footer: 8rem;
+}

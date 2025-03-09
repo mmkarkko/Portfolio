@@ -1,0 +1,25 @@
+@import "./variables.css";
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: grid;
+  grid-template-areas:  "header"
+                        "main" 
+                        "footer";
+  grid-template-rows: var(--height-header) 1fr var(--height-footer);
+  min-height: 100vh;
+}
+
+.main-container {
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+  background-color: var(--color-bg-light);
+}

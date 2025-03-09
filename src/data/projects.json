@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Project name",
+    "description": "Project description",
+    "links": [
+      {
+        "url": "https://github.com",
+        "label": "GitHub"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://via.placeholder.com/150",
+        "alt": "Alt text image 1",
+        "title": "Image title 1"  
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Another Project",
+    "description": "Another project description",
+    "links": [
+      {
+        "url": "https://gitlab.com",
+        "label": "GitLab"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://via.placeholder.com/150",
+        "alt": "Alt text image 2",
+        "title": "Image title 2"  
+      }
+    ]
+  }
+]

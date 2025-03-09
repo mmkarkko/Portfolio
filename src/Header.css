@@ -1,0 +1,28 @@
+@import "./variables.css";
+
+#header {
+  grid-area: header;
+  height: 5rem;
+  background-color: var(--color-purple-blue);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  color: var(--color-white);
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--size-font-navi);
+  z-index: 1;
+}
+
+#header a {
+  text-decoration: none;
+  color: var(--color-white);
+  letter-spacing: 0.1rem;
+}
+
+#header a:hover {
+  color: var(--color-bg-light);
+}
